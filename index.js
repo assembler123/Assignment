@@ -4,7 +4,7 @@ const cors = require('cors');
 const PORT = 3000;
 const app = express();
 app.use(cors())
-app.use(bodyParser({ limit: '50mb' }))
+app.use(bodyParser.urlencoded({ extended: true }))
 
 require('./server/routes')(app);
 
