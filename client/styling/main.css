@@ -1,0 +1,36 @@
+* {
+    transition: all 0.2s ease-out;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.m-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.w-50 {
+    width: 60% !important;
+    margin: 20px;
+}
+
+.selection {
+    height: 50px;
+    background: rgb(146, 17, 17);
+}
+
+.overtext {
+    height: 70vh;
+    overflow: auto;
+}
